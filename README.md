@@ -3,7 +3,7 @@
 <h3>Register Number: 212222230170</h3>
 
 
-<h3>AIM:</h3>
+## AIM:
 <br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
 <br>
@@ -42,7 +42,8 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-<H3>PROGRAMS</H3>
+
+## PROGRAMS
 
 import random
 import time
@@ -225,8 +226,9 @@ print(environment.status)
 environment.run(steps=10)
 print(environment.status)
 print(agent.performance)
-
-<h3>OUTPUT</h3>
+```
+## OUTPUT
 ![image](https://github.com/user-attachments/assets/09df2054-a09e-477f-a221-3b7da33dd9e8)
-<h3>RESULT</h3>
+
+## RESULT
 Thus, an AI agent is developed.
